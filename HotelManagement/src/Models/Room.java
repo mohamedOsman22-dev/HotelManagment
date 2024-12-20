@@ -60,3 +60,4 @@ public class Room implements Prototype, RoomComponent {
         return new Room(this.id, this.type, this.price, this.status);
     }
 }
+//git hup

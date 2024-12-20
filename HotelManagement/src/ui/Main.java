@@ -166,7 +166,7 @@ public class Main extends javax.swing.JFrame {
         jTabbedPane1.setTabPlacement(javax.swing.JTabbedPane.LEFT);
         jTabbedPane1.setFont(new java.awt.Font("Century Gothic", 1, 12)); // NOI18N
 
-        jLabel3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/ui/images/elimende-inagella-h1cjajmECUU-unsplash.jpg"))); // NOI18N
+        jLabel3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/ui/images/home.jpg"))); // NOI18N
 
         javax.swing.GroupLayout jPanel1Layout = new javax.swing.GroupLayout(jPanel1);
         jPanel1.setLayout(jPanel1Layout);
@@ -246,7 +246,7 @@ public class Main extends javax.swing.JFrame {
         }
 
         cloneroom.setFont(new java.awt.Font("Century Gothic", 1, 18)); // NOI18N
-        cloneroom.setIcon(new javax.swing.ImageIcon(getClass().getResource("/ui/images/8665311_clone_icon (3).png"))); // NOI18N
+        cloneroom.setIcon(new javax.swing.ImageIcon(getClass().getResource("/ui/images/clone.png"))); // NOI18N
         cloneroom.setText("Clone");
         cloneroom.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -255,7 +255,7 @@ public class Main extends javax.swing.JFrame {
         });
 
         ReserveButton.setFont(new java.awt.Font("Century Gothic", 1, 18)); // NOI18N
-        ReserveButton.setIcon(new javax.swing.ImageIcon(getClass().getResource("/ui/images/9332214_reserve_icon.png"))); // NOI18N
+        ReserveButton.setIcon(new javax.swing.ImageIcon(getClass().getResource("/ui/images/reserve.png"))); // NOI18N
         ReserveButton.setText("Reserve");
         ReserveButton.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -319,7 +319,7 @@ public class Main extends javax.swing.JFrame {
                 .addGap(52, 52, 52))
         );
 
-        jTabbedPane1.addTab("Room", jPanel6);
+        jTabbedPane1.addTab("Rooms", jPanel6);
 
         jLabel1.setFont(new java.awt.Font("Century Gothic", 1, 12)); // NOI18N
         jLabel1.setText("Choose Payment method");
@@ -361,8 +361,7 @@ public class Main extends javax.swing.JFrame {
         jLabel5.setText("Choose Customer profile");
 
         jButton3.setFont(new java.awt.Font("Century Gothic", 1, 12)); // NOI18N
-        jButton3.setForeground(new java.awt.Color(102, 0, 0));
-        jButton3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/ui/images/8664938_trash_can_delete_remove_icon (1).png"))); // NOI18N
+        jButton3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/ui/images/delete.png"))); // NOI18N
         jButton3.setText("Clear");
         jButton3.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -371,7 +370,7 @@ public class Main extends javax.swing.JFrame {
         });
 
         warntybutton.setFont(new java.awt.Font("Century Gothic", 1, 12)); // NOI18N
-        warntybutton.setIcon(new javax.swing.ImageIcon(getClass().getResource("/ui/images/add.png"))); // NOI18N
+        warntybutton.setIcon(new javax.swing.ImageIcon(getClass().getResource("/ui/images/service.png"))); // NOI18N
         warntybutton.setText("Add Room Service (15$)");
         warntybutton.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -380,7 +379,7 @@ public class Main extends javax.swing.JFrame {
         });
 
         ConfirmButton.setFont(new java.awt.Font("Century Gothic", 1, 12)); // NOI18N
-        ConfirmButton.setIcon(new javax.swing.ImageIcon(getClass().getResource("/ui/images/2190986_approved_check_checkbox_checkmark_confirm_icon (1).png"))); // NOI18N
+        ConfirmButton.setIcon(new javax.swing.ImageIcon(getClass().getResource("/ui/images/add.png"))); // NOI18N
         ConfirmButton.setText("Confirm");
         ConfirmButton.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -489,7 +488,7 @@ public class Main extends javax.swing.JFrame {
             .addComponent(jScrollPane4, javax.swing.GroupLayout.DEFAULT_SIZE, 599, Short.MAX_VALUE)
         );
 
-        jTabbedPane1.addTab("Payment", jPanel3);
+        jTabbedPane1.addTab("Booked", jPanel3);
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);

@@ -85,7 +85,7 @@
             <Component class="javax.swing.JLabel" name="jLabel3">
               <Properties>
                 <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-                  <Image iconType="3" name="/ui/images/elimende-inagella-h1cjajmECUU-unsplash.jpg"/>
+                  <Image iconType="3" name="/ui/images/home.jpg"/>
                 </Property>
               </Properties>
             </Component>
@@ -94,8 +94,8 @@
         <Container class="javax.swing.JPanel" name="jPanel6">
           <Constraints>
             <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout" value="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout$JTabbedPaneConstraintsDescription">
-              <JTabbedPaneConstraints tabName="Room">
-                <Property name="tabTitle" type="java.lang.String" value="Room"/>
+              <JTabbedPaneConstraints tabName="Rooms">
+                <Property name="tabTitle" type="java.lang.String" value="Rooms"/>
               </JTabbedPaneConstraints>
             </Constraint>
           </Constraints>
@@ -280,7 +280,7 @@
                   <Font name="Century Gothic" size="18" style="1"/>
                 </Property>
                 <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-                  <Image iconType="3" name="/ui/images/8665311_clone_icon (3).png"/>
+                  <Image iconType="3" name="/ui/images/clone.png"/>
                 </Property>
                 <Property name="text" type="java.lang.String" value="Clone"/>
               </Properties>
@@ -294,7 +294,7 @@
                   <Font name="Century Gothic" size="18" style="1"/>
                 </Property>
                 <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-                  <Image iconType="3" name="/ui/images/9332214_reserve_icon.png"/>
+                  <Image iconType="3" name="/ui/images/reserve.png"/>
                 </Property>
                 <Property name="text" type="java.lang.String" value="Reserve"/>
               </Properties>
@@ -472,11 +472,8 @@
                 <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                   <Font name="Century Gothic" size="12" style="1"/>
                 </Property>
-                <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-                  <Color blue="0" green="0" red="66" type="rgb"/>
-                </Property>
                 <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-                  <Image iconType="3" name="/ui/images/8664938_trash_can_delete_remove_icon (1).png"/>
+                  <Image iconType="3" name="/ui/images/delete.png"/>
                 </Property>
                 <Property name="text" type="java.lang.String" value="Clear"/>
               </Properties>
@@ -490,7 +487,7 @@
                   <Font name="Century Gothic" size="12" style="1"/>
                 </Property>
                 <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-                  <Image iconType="3" name="/ui/images/add.png"/>
+                  <Image iconType="3" name="/ui/images/service.png"/>
                 </Property>
                 <Property name="text" type="java.lang.String" value="Add Room Service (15$)"/>
               </Properties>
@@ -504,7 +501,7 @@
                   <Font name="Century Gothic" size="12" style="1"/>
                 </Property>
                 <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-                  <Image iconType="3" name="/ui/images/2190986_approved_check_checkbox_checkmark_confirm_icon (1).png"/>
+                  <Image iconType="3" name="/ui/images/add.png"/>
                 </Property>
                 <Property name="text" type="java.lang.String" value="Confirm"/>
               </Properties>
@@ -546,8 +543,8 @@
         <Container class="javax.swing.JPanel" name="jPanel3">
           <Constraints>
             <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout" value="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout$JTabbedPaneConstraintsDescription">
-              <JTabbedPaneConstraints tabName="Payment">
-                <Property name="tabTitle" type="java.lang.String" value="Payment"/>
+              <JTabbedPaneConstraints tabName="Booked">
+                <Property name="tabTitle" type="java.lang.String" value="Booked"/>
               </JTabbedPaneConstraints>
             </Constraint>
           </Constraints>
